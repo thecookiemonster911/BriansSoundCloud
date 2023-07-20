@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credits!</title>
+    <link rel="icon" href="Images/Sound.png" />
+    <style>
+      /* Styles for the whole page */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        color: white;
+      }
+
+      /* Styles for Images */
+      .creditz {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        /* Align the items in the left of the container */
+        height: 100px;
+        border-radius: 10px;
+        background-color: black;
+      }
+
+      .credit-item {
+        display: flex;
+        align-items: center;
+        /* Center the items vertically */
+        margin-bottom: 20px;
+        /* Add spacing between each item */
+      }
+
+      .creditz .button-group {
+        /* Use flexbox to stack the buttons vertically */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+      }
+
+      /* Styles for Buttons */
+      .github-button,
+      .tiktok-button,
+      .instagram-button {
+        display: inline-block;
+        background-color: #7d6f6f;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        color: #ffa500;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 10px;
+        padding: 6px 16px;
+        text-decoration: none;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+      }
+
+      .github-button:hover,
+      .tiktok-button:hover,
+      .instagram-button:hover {
+        background-color: #7d6f6f;
+      }
+
+      .github-button:active,
+      .tiktok-button:active,
+      .instagram-button:active {
+        background-color: #7d6f6f;
+        box-shadow: rgb(0, 0, 0) 0 1px 0 inset;
+        transition: none 0s;
+      }
+
+      .github-button:disabled,
+      .tiktok-button:disabled,
+      .instagram-button:disabled {
+        background-color: #7d6f6f;
+        border-color: rgba(27, 31, 35, 0.15);
+        color: #7d6f6f;
+        cursor: default;
+      }
+
+      /* Style for the heading "Everyone I Produce With!" */
+      .creditz h2 {
+        color: #ffa500; /* Set the text color to orange (#ffa500) */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="creditz">
+      <h2>Everyone I Produce With!</h2>
+      <div class="credit-item">
+        <img src="Images/Blline.jpg" alt="Ging" class="creditz" />
+
+        <div class="button-group">
+          <h4 style="color: white">Me!</h4>
+          <a
+            class="github-button"
+            href="https://soundcloud.com/unlucky-ship"
+            target="_blank"
+            >soundcloud!</a
+          >
+          <a
+            class="tiktok-button"
+            href="https://www.instagram.com/braindamane"
+            target="_blank"
+            >Instagram!</a
+          >
+        </div>
+      </div>
+
+      <div class="credit-item">
+        <img src="Images/Nick.jpg" alt="Ging" class="creditz" />
+
+        <div class="button-group">
+          <h4 style="color: white">1k_daquick</h4>
+          <a
+            class="github-button"
+            href="https://soundcloud.com/skullmaskgang?ref=clipboard&p=a&c=0&si=f8ae297b49ca4e66a7332a89cd60a863&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            target="_blank"
+            >Soundcloud!</a
+          >
+          <a
+            class="tiktok-button"
+            href="https://www.tiktok.com/@tascabbage?_t=8e8nnpbu490&_r=1"
+            target="_blank"
+            >TikTok!</a
+          >
+          <a
+            class="instagram-button"
+            href="https://www.instagram.com/1k_daquick"
+            target="_blank"
+            >Instagram!</a
+          >
+        </div>
+      </div>
+
+      <div class="credit-item">
+        <img src="Images/Naz.jpg" alt="Ging" class="creditz" />
+
+        <div class="button-group">
+          <h4 style="color: white">yvng.tua</h4>
+          <a
+            class="tiktok-button"
+            href="https://www.instagram.com/yvng.tua"
+            target="_blank"
+            >Instagram!</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
