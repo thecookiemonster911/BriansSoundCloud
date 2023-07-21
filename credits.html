@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Credits!</title>
-    <link rel="icon" href="Sound.png" />
+    <link rel="icon" href="Images/Sound.png" />
     <style>
-   
+      /* Styles for the whole page */
       body {
         margin: 0;
         padding: 0;
@@ -19,7 +19,7 @@
         display: flex;
         flex-direction: column;
         align-items: left;
-        /* Align the items in the left of the container */
+        /* Align the items to the left of the container */
         height: 100px;
         border-radius: 10px;
         background-color: black;
@@ -87,16 +87,37 @@
       .creditz h2 {
         color: #ffa500; /* Set the text color to orange (#ffa500) */
       }
+
+      /* Change the color of "Me!" and "1k_daquick" to orange */
+      .button-group h2,
+      .button-group a {
+        color: #ffa500;
+      }
+
+      /* Change the color of "yvng.tua" to orange */
+      .creditz h2.producers-list {
+        color: #ffa500; /* Set the text color to orange (#ffa500) */
+      }
+
+      /* Change the color of the "My Producers" heading to blue */
+      .creditz h2.producers-heading {
+        color: #00aeff; /* Set the text color to a blue shade (#00aeff) */
+      }
+
+      /* Change the color of the list of producers to blue */
+      .creditz .producers-list {
+        color: #00aeff; /* Set the text color to a blue shade (#00aeff) */
+      }
     </style>
   </head>
   <body>
     <div class="creditz">
-      <h2>Everyone I Produce With!</h2>
+      <h2>The Crew!</h2>
       <div class="credit-item">
-        <img src="Blline.jpg" alt="Ging" class="creditz" />
+        <img src="Images/Blline.jpg" alt="Ging" class="creditz" />
 
         <div class="button-group">
-          <h4 style="color: white">Me!</h4>
+          <h2 style="color: ffa500">Me!</h2>
           <a
             class="github-button"
             href="https://soundcloud.com/unlucky-ship"
@@ -109,20 +130,21 @@
             target="_blank"
             >Instagram!</a
           >
+          <a
+            class="github-button"
+            href="https://cash.app/$BrainDaMane"
+            target="_blank"
+            >CashApp!</a
+          >
         </div>
       </div>
 
       <div class="credit-item">
-        <img src="Nick.jpg" alt="Ging" class="creditz" />
+        <img src="Images/Nick.jpg" alt="Ging" class="creditz" />
 
         <div class="button-group">
-          <h4 style="color: white">1k_daquick</h4>
-          <a
-            class="github-button"
-            href="https://soundcloud.com/skullmaskgang?ref=clipboard&p=a&c=0&si=f8ae297b49ca4e66a7332a89cd60a863&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
-            target="_blank"
-            >Soundcloud!</a
-          >
+          <h2 style="color: ffa500">1k_daquick</h2>
+
           <a
             class="tiktok-button"
             href="https://www.tiktok.com/@tascabbage?_t=8e8nnpbu490&_r=1"
@@ -139,16 +161,30 @@
       </div>
 
       <div class="credit-item">
-        <img src="Naz.jpg" alt="Ging" class="creditz" />
+        <img src="Images/Naz.jpg" alt="Ging" class="creditz" />
 
         <div class="button-group">
-          <h4 style="color: white">yvng.tua</h4>
+          <h2 style="color: ffa500">yvng.tua</h2>
           <a
             class="tiktok-button"
             href="https://www.instagram.com/yvng.tua"
             target="_blank"
             >Instagram!</a
           >
+        </div>
+      </div>
+
+      <div>
+        <h2 class="producers-heading">Producers</h2>
+        <div class="producers-list">
+          vizzy <br />
+          Level x Swaggy B <br />
+          Coridaartist <br />
+          Pete Rock <br />
+          RyLouis <br />
+          Dj Paul and Juicy J <br />
+          D.A. got that dope for Garenteed Millions <br />
+          TrashBaggBeatz<br />
         </div>
       </div>
     </div>
